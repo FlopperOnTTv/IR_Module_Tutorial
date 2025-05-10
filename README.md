@@ -66,9 +66,6 @@ This sketch lets your M5StickC/Plus/Plus2 receive and send infrared (IR) signals
 - Press **Button A** to send a test IR code (`0x20DF10EF`, NEC format).
 - Any incoming IR signals will be displayed on the screen and printed to Serial.
 
-### 🖼️ Diagram
-![Wiring Diagram](A_digital_illustration_diagram_depicts_an_M5StickC.png)
-
 ### 📝 Notes
 
 - This example uses the [IRremote](https://github.com/Arduino-IRremote/Arduino-IRremote) library.
