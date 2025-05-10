@@ -1,10 +1,10 @@
 ## IR Transmitter/Receiver with M5StickC Plus 2
-1. 🔑__Overview__
+1.🔑  __Overview__
 
 * What is IR?
 * Use cases (e.g. controlling TVs, decoding remote signals)
 
-2. 🔧__Components Needed__
+2.🔧 __Components Needed__
 
 * M5StickC Plus 2
 
@@ -18,7 +18,7 @@
 
 ![m5ir](https://github.com/user-attachments/assets/978385f1-f045-42e0-9e59-116d62d6b29b)
 
-4. 🔓__Wiring Table__
+4. 🔓 __Wiring Table__
 
 ## IR Receiver
 
