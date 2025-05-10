@@ -44,6 +44,30 @@
 5. Open Serial Monitor at 115200 baud.
 6. Press a button on your IR remote — received codes should display.
 7. Try sending codes with an IR LED to control a device (e.g., a TV).
+## 📡 IR Send & Receive (M5StickC / Plus / Plus2)
+
+This sketch lets your M5StickC/Plus/Plus2 receive and send infrared (IR) signals using an IR receiver and an IR LED.
+
+### 🔌 Wiring
+- **IR Receiver (e.g. VS1838B):**
+  - GND → G
+  - VCC → 3.3V
+  - OUT → GPIO 9
+- **IR LED (with 100Ω resistor):**
+  - Anode → GPIO 10
+  - Cathode → GND
+
+### 📦 Requirements
+- Arduino IDE with [IRremote library](https://github.com/Arduino-IRremote/Arduino-IRremote) (v4+)
+- M5StickC board support
+- M5StickC Plus2 library (or Plus/C version if needed)
+
+### ▶️ Usage
+- Press **Button A** to send a test IR code (`0x20DF10EF`, NEC format).
+- Any incoming IR signals will be displayed on the screen and printed to Serial.
+
+### 🖼️ Diagram
+![Wiring Diagram](A_digital_illustration_diagram_depicts_an_M5StickC.png)
 
 ### 📝 Notes
 
